@@ -1,0 +1,86 @@
+:root {
+    --logo_color: #4b78b2;
+}
+
+.navbar {
+    background: antiquewhite;
+    margin: 0;
+    padding: 1em;
+}
+
+nav {
+    display: none;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: #252222;
+    font-size: 1.2em;
+}
+
+.logo span {
+    color: var(--logo_color);
+}
+
+nav.menu-btn {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: #4b78b2;
+    height: 100vh;
+    padding: 1em;
+}
+
+.primary-nav {
+    margin-top: 5em
+}
+
+
+.container {
+    display: flex;
+    place-content: space-between;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: .5em;
+    font-size: 1.3em;
+    text-align: right;
+
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.mobile-menu-exit {
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
