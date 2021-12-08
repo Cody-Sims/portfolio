@@ -4,6 +4,7 @@
 
 .navbar {
     background: antiquewhite;
+    display: flex;
     margin: 0;
     padding: 1em;
     max-height: 4em;
@@ -100,10 +101,10 @@ section {
     }
     .navbar nav {
         display: flex;
-        justify-content: right;
+        justify-content: space-between;
         background: none;
         position: fixed;
-        margin: 0em 0.1em;
+        max-width: 700px;
     }
 
     ul {
