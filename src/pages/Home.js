@@ -7,7 +7,7 @@ class Home extends React.Component {
             <section class = "hero">
                 <div class = "container">
                     <div class = "left-col">
-                        <p class = "subhead">Text</p>
+                        <p class = "subhead">Text to write</p>
                         <h1>Placeholder Text</h1>
                     </div>
                 </div>

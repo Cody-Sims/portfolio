@@ -6,7 +6,7 @@
     background: antiquewhite;
     display: flex;
     margin: 0;
-    padding: 1em;
+    padding: 1em 1.5em;
     max-height: 4em;
 }
 
@@ -19,10 +19,6 @@ nav {
     font-weight: bold;
     color: #252222;
     font-size: 1.5em;
-
-    position: fixed;
-    /*left: 25px;*/
-    /*top: 25px;*/
 }
 
 .logo span {
@@ -87,18 +83,12 @@ ul {
     padding: 0;
 }
 
-section {
-    padding: 5em 2em;
-}
 
 @media only screen and (min-width: 768px) {
     .mobile-menu, .mobile-menu-exit {
         display: none;
     }
-    nav.container{
-        display: grid;
-        grid-template-columns: 180px auto;
-    }
+
     .navbar nav {
         display: flex;
         justify-content: space-between;
