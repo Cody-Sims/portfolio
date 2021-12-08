@@ -10,9 +10,7 @@ class Home extends React.Component {
                         <p class = "subhead">Text</p>
                         <h1>Placeholder Text</h1>
                     </div>
-
                 </div>
-
             </section>
         );
     }
