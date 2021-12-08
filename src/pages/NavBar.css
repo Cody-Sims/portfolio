@@ -3,7 +3,6 @@
 }
 
 .navbar {
-    position: fixed;
     background: antiquewhite;
     margin: 0;
     padding: 1em;
@@ -20,7 +19,7 @@ nav {
     color: #252222;
     font-size: 1.5em;
 
-    position: relative;
+    position: fixed;
     left: 25px;
     top: 2%;
 }
