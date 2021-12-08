@@ -16,8 +16,10 @@ function NavBar() {
     return (
             <div className="navbar">
                 <div class = "container">
-                    <NavLink className="logo" to="/">Cody's <span>Portfolio</span></NavLink>
-                    <img id = "mobile-cta" class = "mobile-menu" src = {"images/menu.svg"} alt="Navigation Bar" onClick={openMenu}/>
+                    <div>
+                        <NavLink className="logo" to="/">Cody's <span>Portfolio</span></NavLink>
+                        <img id = "mobile-cta" class = "mobile-menu" src = {"images/menu.svg"} alt="Navigation Bar" onClick={openMenu}/>
+                    </div>
                     <nav>
                         <img id="mobile-exit" className="mobile-menu" src={"images/menu.svg"} alt="Exit Menu" onClick={closeMenu}/>
                         <ul class = "primary-nav">

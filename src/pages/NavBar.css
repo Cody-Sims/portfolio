@@ -6,6 +6,7 @@
     background: antiquewhite;
     margin: 0;
     padding: 1em;
+    max-height: 4em;
 }
 
 nav {
@@ -16,7 +17,11 @@ nav {
     text-decoration: none;
     font-weight: bold;
     color: #252222;
-    font-size: 1.2em;
+    font-size: 1.5em;
+
+    position: fixed;
+    left: 25px;
+    top: 2%;
 }
 
 .logo span {
@@ -83,4 +88,39 @@ ul {
 
 section {
     padding: 5em 2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu, .mobile-menu-exit {
+        display: none;
+    }
+    nav.container{
+        display: grid;
+        grid-template-columns: 180px auto;
+    }
+    .navbar nav {
+        display: flex;
+        justify-content: right;
+        background: none;
+        position: fixed;
+        margin: 0em 0.1em;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        padding: 0 1em;
+    }
+
+    .nav-link {
+        color: black;
+        font-size: 1em;
+        padding: .1em;
+    }
+
+    ul.primary-nav {
+        margin: 0;
+    }
 }
