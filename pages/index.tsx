@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <Image src={'/me.png'} width={700} height={625}/>
+        <Image src={'/me.png'} width={700} height={625} priority={true}/>
       </div>
       <div className={styles.column}>
         <div className={styles.text}>
