@@ -5,9 +5,8 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div className={styles.image}>
-        <Image src={'/me.png'} width={700} height={625} priority={true}/>
-      </div>
+      <img className= {styles.image} src="me.png" width="700" height="625"></img>
+        {/* <Image src={'/me.png'} width={700} height={625} priority={true}/> */}
       <div className={styles.column}>
         <div className={styles.text}>
           <div className={styles.about}>

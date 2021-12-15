@@ -10,6 +10,9 @@
   bottom: 0;
   right: 0;
   size: contain;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 .column {
@@ -28,32 +31,18 @@
     color: white;
 
     .label:after{
-      content:'Hello.';
-    }
-
-    .label:hover:after{
-      padding: 3vw;
       content:'About';
     }
   }
 
   .projects {
     .label:after{
-      content:'I am.';
-    }
-    .label:hover:after{
-      padding: 3vw;
       content:'Projects';
     }
   }
 
   .contact {
     .label:after{
-      content:'Cody';
-    }
-
-    .label:hover:after{
-      padding: 3vw;
       content:'Contact';
     }
   }
@@ -61,13 +50,49 @@
 
 
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1080px) {
   .column {
     top: 10vh;
     left: 14vw;
   }
   .text {
+    font-weight: 2em;
     font-size: 10em;
+    color: red;
+  
+    .about {
+      color: white;
+  
+      .label:after{
+        content:'Hello.';
+      }
+  
+      .label:hover:after{
+        padding: 3vw;
+        content:'About';
+      }
+    }
+  
+    .projects {
+      .label:after{
+        content:'I am.';
+      }
+      .label:hover:after{
+        padding: 3vw;
+        content:'Projects';
+      }
+    }
+  
+    .contact {
+      .label:after{
+        content:'Cody';
+      }
+  
+      .label:hover:after{
+        padding: 3vw;
+        content:'Contact';
+      }
+    }
   }
 }
 
