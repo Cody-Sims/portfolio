@@ -6,22 +6,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <Image src={'/me.svg'} width={700} height={625}/>
+        <Image src={'/me.png'} width={700} height={625}/>
       </div>
       <div className={styles.column}>
         <div className={styles.text}>
           <div className={styles.about}>
-            <Link href="/About">
+            <Link href="/about">
               <span className={styles.label}></span>
             </Link>
           </div>
           <div className={styles.projects}>
-            <Link href="/Projects">
+            <Link href="/projects">
               <span className={styles.label}></span>
             </Link>
           </div>
           <div className={styles.contact}>
-            <Link href="/Contact">
+            <Link href="/contact">
               <span className={styles.label}></span>
             </Link>
           </div>
