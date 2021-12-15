@@ -1,0 +1,73 @@
+.container {
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: black;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  size: contain;
+}
+
+.column {
+  position: relative;
+  top: 25vh;
+  left: 10vw;
+  max-width: 40vw;
+}
+
+.text {
+  font-weight: 2em;
+  font-size: 10vh;
+  color: red;
+
+  .about {
+    color: white;
+
+    .label:after{
+      content:'Hello.';
+    }
+
+    .label:hover:after{
+      padding: 3vw;
+      content:'About';
+    }
+  }
+
+  .projects {
+    .label:after{
+      content:'I am.';
+    }
+    .label:hover:after{
+      padding: 3vw;
+      content:'Projects';
+    }
+  }
+
+  .contact {
+    .label:after{
+      content:'Cody';
+    }
+
+    .label:hover:after{
+      padding: 3vw;
+      content:'Contact';
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 720px) {
+  .column {
+    top: 10vh;
+    left: 14vw;
+  }
+  .text {
+    font-size: 10em;
+  }
+}
+
